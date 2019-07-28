@@ -1,0 +1,23 @@
+.one_day {
+    border:solid 1px gray;
+    width: calc(10% - 2px);
+    padding-bottom: calc(10% - 2px);
+    position: relative;
+    cursor:pointer;
+}
+.one_day_content {
+    position: absolute;
+    width:100%;
+}
+.one_day_content_day {
+    position:relative;
+    top: 5px;
+    left: 5px;
+}
+.one_day_content .MuiBadge-root {
+    position: initial;
+}
+.one_day_content .MuiBadge-badge {
+    right: 15px;
+    top: 15px;
+}
